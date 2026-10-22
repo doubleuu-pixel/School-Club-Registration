@@ -44,7 +44,7 @@ app.use((err, _req, res, _next) => {
   });
 });
 
-const PORT = process.env.PORT || 5000;
+const PORT = 6001;
 const MONGODB_URI = process.env.MONGODB_URI;
 
 if (!MONGODB_URI) {
