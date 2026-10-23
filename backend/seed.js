@@ -8,43 +8,46 @@ const MONGO_URI =
 
 const clubsData = [
   {
-    clubName: "IT Club",
-    description: "Promotes programming, technology, and IT skills.",
-    category: "Technology",
-    adviser: "Mr. Santos",
-    maxMembers: 40,
-    status: "Active"
-  },
-  {
-    clubName: "Science Club",
-    description: "Encourages scientific research and experiments.",
-    category: "Academic",
-    adviser: "Ms. Reyes",
-    maxMembers: 35,
-    status: "Active"
-  },
-  {
-    clubName: "English Club",
-    description: "Develops communication, reading, and writing skills.",
-    category: "Academic",
-    adviser: "Mrs. Cruz",
+    clubName: "Art Club",
+    departmentName: "Information Technology",
+    description: "A place to create, connect, and inspire through art.",
+    category: "Arts",
+    adviser: "Mrs. Rica Jane Paurillo",
     maxMembers: 30,
     status: "Active"
   },
   {
-    clubName: "Dance Club",
-    description: "Promotes dance, choreography, and performing arts.",
+    clubName: "Music Club",
+    departmentName: "Information Technology",
+    description: "Open to beginners and experienced musicians alike—just bring your passion for sound.",
+    category: "Music and Performing Arts",
+    adviser: "Mr. Revin Adobas",
+    maxMembers: 30,
+    status: "Active"
+  },
+  {
+    clubName: "Coding Club",
+    departmentName: "Information Technology",
+    description: "Work on websites, mobile apps, and video game development.",
+    category: "Academic",
+    adviser: "Mr. Dexter Amper",
+    maxMembers: 30,
+    status: "Active"
+  },
+  {
+    clubName: "Web Club",
+    description: " Launch live websites and personal projects to showcase your skills to the world.",
     category: "Arts",
-    adviser: "Ms. Garcia",
-    maxMembers: 25,
+    adviser: "Mr. Lein Tiro",
+    maxMembers: 30,
     status: "Active"
   },
   {
     clubName: "Sports Club",
     description: "Encourages physical fitness and sports activities.",
     category: "Sports",
-    adviser: "Mr. Dela Cruz",
-    maxMembers: 50,
+    adviser: "Mr. Kinrich Gantala",
+    maxMembers: 30,
     status: "Active"
   },
   {
